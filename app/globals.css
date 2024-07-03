@@ -73,4 +73,20 @@
     body {
       @apply bg-background text-foreground;
     }
+    /* 添加动画 */
+    @keyframes slideInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* 应用动画的类 */
+    .animated-text {
+      animation: slideInUp 2.5s ease-out forwards;
+    }
   }
