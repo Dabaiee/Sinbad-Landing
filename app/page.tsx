@@ -43,8 +43,10 @@ export default function Home() {
           <video autoPlay loop muted className="absolute inset-0 w-full h-full object-cover object-position-left">
             <source src="/background.mp4" type="video/mp4" />
           </video>
-          <div className="animated-text absolute inset-0 flex items-center justify-center">
-            <p className="text-6xl font-semibold z-10">Exchange with confidence</p>
+          <div className="animated-text absolute inset-0 flex items-center justify-center flex-col">
+            <p className="text-6xl font-semibold z-10 ">Outstanding product</p> 
+            <p className="text-6xl font-semibold z-10 mt-3">Superior Assets</p>
+            <p className="text-6xl font-semibold z-10 mt-3">Investment confidence is within easy reach</p>
           </div>
         </div>
 
@@ -72,6 +74,11 @@ export default function Home() {
               <Button className="ml-2 px-4 py-2">SIGN UP</Button>
             </form>
           </div>
+        </div>
+        <div className="fixed bottom-12 right-4 z-50">
+          <button className="h-24 w-24 p-5 bg-white rounded-full shadow-lg ">
+            <img src="/conversation.png"></img>
+          </button>
         </div>
 
         <footer className="w-full p-4 border-t border-gray-700 flex justify-end items-center mt-auto">
